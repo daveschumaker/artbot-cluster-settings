@@ -4,9 +4,10 @@ module.exports = {
       name: 'artbot-cluster-settings',
       script: 'npm',
       args: 'start',
-      restart_delay: 3003,
+      restart_delay: 5000,
       env: {
-        NODE_ENV: 'production'
+        NODE_ENV: 'production',
+        PORT: 3003
       }
     }
   ]
