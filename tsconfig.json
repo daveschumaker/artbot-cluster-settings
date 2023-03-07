@@ -5,6 +5,7 @@
     "forceConsistentCasingInFileNames": true,
     "target": "es6",
     "moduleResolution": "node",
+    "resolveJsonModule": true,
     "skipLibCheck": true,
     "sourceMap": true,
     "outDir": "dist"
